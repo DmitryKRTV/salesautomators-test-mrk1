@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 const axiosInstance = axios.create({
-    baseURL: "https://decronus-sandbox.pipedrive.com/api/v1/",
+    baseURL: "https://net-sandbox.pipedrive.com/api/v1/",
     timeout: 0,
     headers: {
         Accept: "application/json",
